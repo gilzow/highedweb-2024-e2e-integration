@@ -12,7 +12,8 @@
  * @package         E2E-test
  */
 /**
- * Customer requested the editors no longer can delete their posts
+ * Customer requested the editors no longer can delete their posts.
+ * @todo maybe make a new role instead??
  */
 add_action('init',function (){
 	$editor = get_role('editor');
